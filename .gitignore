@@ -1,0 +1,17 @@
+## .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+.idea/
+TestResults/
+*.log
+
+## Secrets and local configuration - never commit these
+.env
+*.pfx
+certs/
+appsettings.*.local.json
+secrets.json
